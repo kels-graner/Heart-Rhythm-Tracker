@@ -1,1 +1,1 @@
-# Heart Rate Tracker
+# Heart Rhythm Tracker
