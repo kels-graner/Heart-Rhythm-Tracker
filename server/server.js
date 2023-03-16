@@ -1,8 +1,13 @@
 const express = require('express');
 const path = require('path');
+const cors = require('cors');
 
 const app = express();
 const PORT = 5000;
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true} ));
+app.use(cors());
 
 //serve static files
 express.static(path.resolve(__dirname, '../public'));
