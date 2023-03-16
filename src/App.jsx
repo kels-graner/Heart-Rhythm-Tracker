@@ -4,9 +4,7 @@ import Heart from './components/Heart';
 function App() {
   return (
     <div className="App">
-        <p>
-          Kelsey Graner, 31Y, F
-        </p>
+      <h2>Kelsey Graner, 31Y, F</h2>
        <Heart/>
     </div>
   );

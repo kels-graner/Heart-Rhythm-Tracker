@@ -17,7 +17,6 @@ express.static(path.resolve(__dirname, '../public'));
 
 // Get patient data endpoint
 app.get('/data', (req, res) => {
-  console.log('in app.get /data')
   res.sendFile(__dirname + '/data.csv');
 });
 
